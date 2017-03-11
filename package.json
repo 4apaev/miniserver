@@ -1,5 +1,5 @@
 {
-  "name":            "devserver",
+  "name":            "miniserver",
   "version":         "1.0.0",
   "description":     "minimal dev server",
   "main":            "index.js",
