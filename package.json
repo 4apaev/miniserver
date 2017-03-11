@@ -1,0 +1,19 @@
+{
+  "name":            "miniserver",
+  "version":         "1.0.0",
+  "description":     "miniserver",
+  "main":            "index.js",
+  "author":          {
+    "name": "Michael Miretski",
+    "email": "4apaev@gmail.com"
+  },
+  "repository":      {
+    "type": "git"
+  },
+  "scripts":         {
+    "start" : "node index"
+  },
+  "dependencies": {
+    "browserify": "latest"
+  }
+}
