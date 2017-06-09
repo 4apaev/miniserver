@@ -6,6 +6,9 @@ module.exports = (Mims => {
   const Mim = {
       [ $ ]: Object.create(null),
 
+      is(x) {
+          return this[ $ ][ x.trim().toLowerCase() ]
+        },
       get(x, fallback) {
           const ext = Path.extname(x).slice(1).toLowerCase()
           return this[ $ ][ ext ] || fallback || 'plain/text'
